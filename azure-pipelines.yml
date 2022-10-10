@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: Demoagentpool
+pool: Demoagentpool
 
 steps:
 - script: echo Hello, world!
